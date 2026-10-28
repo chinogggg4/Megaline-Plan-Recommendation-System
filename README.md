@@ -80,9 +80,9 @@ Perform a baseline comparison to confirm that the selected model performs better
 
 ### Best Model
 
-- **Model:** *(Fill in after training)*
-- **Accuracy on Validation Set:** *(Fill in after training)*
-- **Accuracy on Test Set:** *(Fill in after training)*
+- **Model:** *Random Forest Classifier*
+- **Accuracy on Validation Set:** *0.8227*
+- **Accuracy on Test Set:** *0.8196*
 
 ### Key Findings
 
@@ -110,18 +110,10 @@ Perform a baseline comparison to confirm that the selected model performs better
 ```text
 Megaline-Plan-Recommendation-System/
 │
-├── data/
+├── datasets/
 │   └── users_behavior.csv
 │
-├── notebooks/
-│   └── megaline_plan_recommendation.ipynb
-│
-├── images/
-│   └── model_results.png
-│
-├── models/
-│   └── best_model.pkl
-│
+├── notebook.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -134,22 +126,16 @@ Megaline-Plan-Recommendation-System/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Megaline-Plan-Recommendation-System.git
+git clone https://github.com/chinogggg4/Megaline-Plan-Recommendation-System.git
 ```
 
-2. Navigate to the project folder:
-
-```bash
-cd Megaline-Plan-Recommendation-System
-```
-
-3. Install dependencies:
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Open the notebook and run all cells.
+3. Open the notebook and run all cells.
 
 ---
 
